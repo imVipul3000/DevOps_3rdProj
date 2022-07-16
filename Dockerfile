@@ -4,7 +4,6 @@ WORKDIR /var/vipul2/
 
 COPY . .
 
-RUN npm install
 RUN npm install pm2 -g
 
 EXPOSE 3000
